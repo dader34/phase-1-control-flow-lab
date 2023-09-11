@@ -2,13 +2,10 @@ function scuberGreetingForFeet(height){
   if(height <= 400){
     return 'This one is on me!'
   }
-  else{
-    if(height > 400 && height <= 2000){
-      return 'That will be twenty bucks.'
-    }
-    if(height > 2500){
-      return "No can do."
-    }
+  else if(height > 400 && height <= 2000){
+    return 'That will be twenty bucks.'
+  } else if(height > 2500){
+    return "No can do."
   }
   return 'I will gladly take your thirty bucks.'
 }
